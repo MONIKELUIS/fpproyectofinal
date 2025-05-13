@@ -48,7 +48,7 @@ public class Main {
 			e.printStackTrace();
 		}
 		
-		System.out.println("prueba1");
+		System.out.println("prueba2");
 		VentaGeneral ventana = new VentaGeneral();
 
 	}
