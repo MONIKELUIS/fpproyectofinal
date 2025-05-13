@@ -42,6 +42,7 @@ public class Main {
 		
 		System.out.println("Fin - Cerramos conexión");
 		System.out.println("Comit luis angel");
+		System.out.println("hola caracola");
 		
 		try {
 			conexion.close();
