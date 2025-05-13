@@ -11,7 +11,7 @@ public class MySQLConnection {
     	// Datos de conexión
         String url = "jdbc:mysql://localhost:3306/pfinal"; // url bbdd
         String usuario = "root"; // Cambia por tu usuario de MySQL
-        String password = "admin"; // Cambia por tu contraseña
+        String password = ""; // Cambia por tu contraseña
 
         Connection conexion = null;
         
