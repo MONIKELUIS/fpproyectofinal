@@ -41,6 +41,7 @@ public class Main {
 		mostrarClientes(conexion);
 		
 		System.out.println("Fin - Cerramos conexión");
+		System.out.println("hola que hace");
 		
 		try {
 			conexion.close();
