@@ -27,7 +27,7 @@ public class VentaGeneral {
 		// Text area
 				JTextArea jt = new JTextArea(2,15);
 				jp.add(jt);
-		// Botones
+		// Botonesg
 		
 		JButton bt = new JButton("Enviar");
 		bt.setName("#boton1");
