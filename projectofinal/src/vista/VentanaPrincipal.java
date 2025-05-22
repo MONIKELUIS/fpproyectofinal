@@ -16,6 +16,7 @@ public class VentanaPrincipal extends JFrame {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	
 	private JPanel panelEquipos;
 	private EquipoControlador equipoControlador;
 	private JugadorControlador jugadorControlador;
@@ -36,7 +37,8 @@ public class VentanaPrincipal extends JFrame {
 	}
 
 	public void mostrarEquipos() {
-	    panelEquipos.removeAll();
+	    panelEquipos.removeAll(); // remueve todo lo que este antes
+	    
 	    ArrayList<String> imagenes = new ArrayList<String>();
 	    imagenes.add("media/avatar1.jpg");
 	    imagenes.add("media/avatar2.jpg");
